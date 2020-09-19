@@ -10,11 +10,11 @@ def add_two_numbers a, b
     
     # This part should be in the main body of the program, but we are just starting to learn
     # about methods in Ruby and have not covered returning values form methods yet.
-    puts "You entered #{a.chomp} and #{b.chomp} as the nubers to add together."
-    puts "Which gives us #{sum} when these two values are added together."
+    puts "You entered #{a.chomp} and #{b.chomp} as the nubers to add together,"
+    puts "which gives us #{sum} when these two values are added together."
 
-    rescue => exception
-   
+rescue => exception
+    warn exception.message  
 end
 
 puts "Please enter a number :"
