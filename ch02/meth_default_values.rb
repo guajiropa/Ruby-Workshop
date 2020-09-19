@@ -10,8 +10,9 @@ def percent_of_value a, b=20
     calc_val = (a * b) / 100
     return calc_val
 
-rescue => exception
-    warn exception.message  
+    rescue => exception
+        warn exception.message  
+        
 end
 
 puts "Please enter a value :"

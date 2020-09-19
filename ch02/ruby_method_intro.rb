@@ -13,8 +13,9 @@ def add_two_numbers a, b
     puts "You entered #{a.chomp} and #{b.chomp} as the numbers to add together,"
     puts "which gives us #{sum} when these two values are added together."
 
-rescue => exception
-    warn exception.message  
+    rescue => exception
+        warn exception.message  
+        
 end
 
 puts "Please enter a number :"
