@@ -1,7 +1,7 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 09/19/2020
 #   FILE        : ruby_method_intro.rb
-#   SYNOPSIS    : 
+#   SYNOPSIS    : Introduction to using methods in Ruby.
 #
 
 def add_two_numbers a, b
