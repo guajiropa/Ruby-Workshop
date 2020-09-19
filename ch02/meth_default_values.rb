@@ -21,5 +21,5 @@ user_percent = gets
 
 answer = percent_of_value(user_val.to_i, user_percent.to_i)
 
-puts "#{answer} is #{user_percent.chomp} percent of #{user_val.chomp}\."
+puts "The value of #{answer} is #{user_percent.chomp} percent of #{user_val.chomp}\."
 
