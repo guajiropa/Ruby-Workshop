@@ -9,7 +9,7 @@ def add_two_numbers a, b
     sum = a.to_i + b.to_i
     
     # This part should be in the main body of the program, but we are just starting to learn
-    # about methods in Ruby and have not covered returning values form methods yet.
+    # about methods in Ruby and have not covered returning values from methods yet.
     puts "You entered #{a.chomp} and #{b.chomp} as the numbers to add together,"
     puts "which gives us #{sum} when these two values are added together."
 
