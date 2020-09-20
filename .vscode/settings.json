@@ -1,0 +1,4 @@
+{
+    "git.postCommitCommand": "push",
+    "github.gitAuthentication": false
+}
