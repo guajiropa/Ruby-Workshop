@@ -1,5 +1,5 @@
 #   AUTHOR      : Robert James Patterson
-#   DATE        : 09/19/2020
+#   DATE        : 09/20/2020
 #   FILE        : roller.rb
 #   SYNOPSIS    : The 'truthyness' of values.
 #
