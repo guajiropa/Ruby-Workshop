@@ -28,5 +28,3 @@ end
 
 puts "Rolling a five-sided dice : #{roll_on_five}"
 puts "Rolling two six-sided dice : #{roll_on_six}"
-
-puts
