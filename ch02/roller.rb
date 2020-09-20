@@ -3,10 +3,11 @@
 #   FILE        : roller.rb
 #   SYNOPSIS    : obtain a random number printed on the screen for two scenarios: 
 #                 rolling a five-sided die and rolling two six-sided dice.
-#
 
 def roll_on_five
-    # method body goes here 
+    
+    x = rand(1..5)
+    return x
 
     rescue => exception
         warn exception.message
@@ -14,8 +15,10 @@ def roll_on_five
     
 end
 
-def roll_on_twelve
-    # method body goes here 
+def roll_on_six
+    
+    x = rand(1..12)
+    return x
 
     rescue => exception
         warn exception.message
@@ -23,3 +26,7 @@ def roll_on_twelve
 
 end
 
+puts "Rolling a five-sided dice : #{roll_on_five}"
+puts "Rolling two six-sided dice : #{roll_on_six}"
+
+puts
