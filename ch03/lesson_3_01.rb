@@ -1,6 +1,6 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 09/20/2020
-#   FILE        : roller.rb
+#   FILE        : lesson_3_01.rb
 #   SYNOPSIS    : Exercise 3.01: Implementing Boolean Operators
 #
 def truthiness(x, y)
