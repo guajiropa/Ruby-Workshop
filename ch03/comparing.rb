@@ -7,12 +7,8 @@ def compare(x, y)
 
     if x < y
         puts "#{x.chomp} < #{y.chomp}"
-    elsif x <= y
-        puts "#{x.chomp} <= #{y.chomp}"
     elsif x == y
         puts "#{x.chomp} == #{y.chomp}"
-    elsif x >= y
-        puts "#{x.chomp} >= #{y.chomp}"
     elsif x > y 
         puts "#{x.chomp} > #{y.chomp}"
     end
