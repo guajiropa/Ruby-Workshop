@@ -2,26 +2,20 @@
 #   DATE        : 09/20/2020
 #   FILE        : comparing.rb
 #   SYNOPSIS    : Comparison operations in Ruby.
-#
+
 def compare(x, y)
 
-    if x < y
-        puts "#{x.chomp} < #{y.chomp}"
-    elsif x == y
-        puts "#{x.chomp} == #{y.chomp}"
-    elsif x > y 
-        puts "#{x.chomp} > #{y.chomp}"
+    if (x < y)
+        puts "#{x} < #{y}"
+    elsif (x > y) 
+        puts "#{x} > #{y}"    
+    elsif (x == y)
+        puts "#{x} == #{y}"    
     end
-
-    rescue => exception
-        warn exception.message
-
 end
 
-puts "Please enter first value :"
-first_val = gets
 
-puts "Please enter second value :"
-second_val = gets
-
-compare(first_val, second_val)
+compare(6, 12)
+compare(14, 7)
+compare(27, 27)
+compare('apples', 'oranges')
