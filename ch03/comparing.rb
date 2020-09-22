@@ -2,14 +2,14 @@
 #   DATE        : 09/20/2020
 #   FILE        : comparing.rb
 #   SYNOPSIS    : Comparison operations in Ruby.
-#
+
 def compare(x, y)
 
-    if x < y
+    if (x < y)
         puts "#{x.chomp} < #{y.chomp}"
-    elsif x == y
+    elsif (x == y)
         puts "#{x.chomp} == #{y.chomp}"
-    elsif x > y 
+    elsif (x > y) 
         puts "#{x.chomp} > #{y.chomp}"
     end
 
