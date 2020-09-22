@@ -2,6 +2,7 @@
 
 _These are the work-thru files for the_ **PACKT** _book titled_ **The Ruby Workshop**
 
+:+1:
 
 ![Image of The Ruby Workshop](smaller.png)
 
