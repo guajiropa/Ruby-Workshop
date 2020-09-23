@@ -1,7 +1,7 @@
 #   AUTHOR      : Robert James Patterson
 #   DATE        : 09/20/2020
 #   FILE        : comparing.rb
-#   SYNOPSIS    : Comparison operations in Ruby.
+#   SYNOPSIS    : Comparison operations in Ruby. New changes
 
 def compare(x, y)
 
